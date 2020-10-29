@@ -56,7 +56,7 @@ function makeNewGrid() {
 	userInput = Number(userInput)
 	if (userInput > 100 || userInput < 1 || isNaN(userInput)) {
 		alert(
-			'\n Please enter a number between 1 and 100. \n The default selection is 50.'
+			'\n Please enter a number between 1 and 100. \n The default selection is 16.'
 		)
 		userInput = 16
 	}
